@@ -5,7 +5,7 @@ import Toybox.WatchUi;
 import Toybox.System;
 import Toybox.Lang;
 import Toybox.Application;
-// Entferne alle ungültigen Import-Anweisungen für Klassen
+
 
 class IronmanApp_siebenView extends WatchUi.View {
 
@@ -18,7 +18,6 @@ class IronmanApp_siebenView extends WatchUi.View {
     }
 
     function onShow() as Void {
-        // Weitere Initialisierungen, falls erforderlich
     }
 
     function onUpdate(dc as Graphics.Dc) as Void {
@@ -26,7 +25,6 @@ class IronmanApp_siebenView extends WatchUi.View {
     }
 
     function onHide() as Void {
-        // Aufräumarbeiten, falls erforderlich
     }
 
     // Methode zum Abfangen der Tastendrücke
