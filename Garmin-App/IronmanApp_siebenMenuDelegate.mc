@@ -21,9 +21,6 @@ class IronmanApp_siebenMenuDelegate extends WatchUi.MenuInputDelegate {
             WatchUi.pushView(swimView, delegate, WatchUi.SLIDE_UP);
         } else if (item == :item_2) {  // 70.3 Auswahl
             System.println("70.3 selected, but currently not implemented.");
-            // Aktuell keine Aktion. In Zukunft kann hier eine andere View oder ein anderer View-Stack implementiert werden.
-            // Optional: Zeige eine Toast-Nachricht an
-            // WatchUi.showToast("70.3 ist noch nicht verfügbar.", { :icon := WatchUi.BITMAP_NONE });
         } else {
             System.println("Unknown item selected.");
         }
