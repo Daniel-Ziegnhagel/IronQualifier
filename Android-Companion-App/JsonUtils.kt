@@ -8,7 +8,7 @@ import java.io.File
 fun createJson(medians: Map<String, Any>): String {
     val jsonObject = JSONObject()
 
-    // Fügen Sie alle Schlüssel-Wert-Paare aus medians hinzu
+    // Fügen alle Schlüssel-Wert-Paare aus medians hinzu
     for ((key, value) in medians) {
         jsonObject.put(key, value)
     }
