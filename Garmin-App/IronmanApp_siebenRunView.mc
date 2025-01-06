@@ -83,7 +83,7 @@ class IronmanApp_siebenRunView extends WatchUi.View {
         // Vibration
         longVibration = new Attention.VibeProfile(100, 3000);
 
-        // +++ Neu: Daten aus dem Storage laden +++
+        // Daten aus dem Storage laden
         results = Application.Storage.getValue("results") as Lang.Dictionary;
 
         if (results != null) {
