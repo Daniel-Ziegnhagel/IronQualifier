@@ -4,7 +4,7 @@ package com.iron.qualifier
 import org.json.JSONArray
 import org.json.JSONObject
 
-// Erweiterungsfunktion zum Konvertieren von JSONObject in Map<String, Any?>
+// Erweiterungsfunktion zum Konvertieren von JSON in Map
 fun JSONObject.toMap(): Map<String, Any?> = keys().asSequence().associateWith { key ->
     when (val value = this[key]) {
         is JSONArray -> value.toList()
