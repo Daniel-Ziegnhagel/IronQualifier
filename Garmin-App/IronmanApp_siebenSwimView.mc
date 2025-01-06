@@ -7,7 +7,7 @@ import Toybox.Lang;
 import Toybox.Activity;
 import Toybox.Application;
 import Toybox.Attention;
-import Toybox.Application.Storage;  // Korrektes Storage-Modul
+import Toybox.Application.Storage;  
 using Rez;
 using Log4MonkeyC as Log;
 using StopwatchManager;
