@@ -19,7 +19,7 @@ class IronmanApp_siebenMenuDelegate extends WatchUi.MenuInputDelegate {
             swimView.initialize(); 
             var delegate = new StopwatchDelegate(); // Neue Delegate-Instanz
             WatchUi.pushView(swimView, delegate, WatchUi.SLIDE_UP);
-        } else if (item == :item_2) {  // 70.3 Auswahl
+        } else if (item == :item_2) {  
             System.println("70.3 selected, but currently not implemented.");
         } else {
             System.println("Unknown item selected.");
