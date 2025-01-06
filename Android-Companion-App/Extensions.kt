@@ -14,7 +14,7 @@ fun JSONObject.toMap(): Map<String, Any?> = keys().asSequence().associateWith { 
     }
 }
 
-// Erweiterungsfunktion zum Konvertieren von JSONArray in List<Any?>
+// Erweiterungsfunktion zum Konvertieren von JSONArray in List
 fun JSONArray.toList(): List<Any?> = (0 until length()).map { i ->
     when (val value = get(i)) {
         is JSONArray -> value.toList()
