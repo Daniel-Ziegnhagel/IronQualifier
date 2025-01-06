@@ -5,7 +5,6 @@ import Toybox.WatchUi;
 import Toybox.System;
 using Log4MonkeyC as Log;
 import StopwatchManager; // Importiere das StopwatchManager-Modul
-// import HeartRateManager; // Importiere die HeartRateManager-Klasse
 
 class StopwatchDelegate extends WatchUi.BehaviorDelegate {
     hidden var swimView;
