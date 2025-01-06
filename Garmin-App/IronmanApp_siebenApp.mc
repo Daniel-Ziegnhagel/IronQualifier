@@ -2,8 +2,8 @@
 
 import Toybox.Application;
 import Toybox.System;
-import Toybox.Communications;       // Korrektes Kommunikationsmodul
-import Toybox.Application.Storage;  // Korrektes Storage-Modul
+import Toybox.Communications;       
+import Toybox.Application.Storage;  
 import Toybox.Lang;
 
 class IronmanApp_siebenApp extends Application.AppBase {
@@ -30,15 +30,11 @@ class IronmanApp_siebenApp extends Application.AppBase {
         }
     }
 
-    // Korrekte onStart-Methode
     function onStart(state as Lang.Dictionary or Null) as Void {
         AppBase.onStart(state);
-        // Hier können Sie zusätzlichen Code hinzufügen, falls erforderlich
     }
 
-    // Korrekte onStop-Methode
     function onStop(state as Lang.Dictionary or Null) as Void {
-        // Hier können Sie zusätzlichen Code hinzufügen, falls erforderlich
         AppBase.onStop(state);
     }
 
