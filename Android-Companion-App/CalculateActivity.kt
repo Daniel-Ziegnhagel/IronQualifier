@@ -31,8 +31,6 @@ import com.iron.qualifier.ui.theme.IronQualifierTheme
 import org.json.JSONObject
 import java.io.File
 
-// Wichtig: wir nutzen parseTime aus Calculator.kt
-// sowie medianTimes, createJson, saveJsonToFile, parseXml
 import com.iron.qualifier.parseTime
 import com.iron.qualifier.medianTimes
 import com.iron.qualifier.createJson
