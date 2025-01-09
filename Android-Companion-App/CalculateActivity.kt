@@ -248,8 +248,8 @@ fun CalculateContent(modifier: Modifier = Modifier) {
                         Laufen: ${medians["run_time"]}
                     """.trimIndent()
 
-                    // +++ Erweiterung: Wir fügen die *seconds-Felder hinzu +++
-                    // Wir konvertieren das 'medians' Map zu einem MutableMap, um zusätzliche Keys hinzuzufügen.
+                    // Einfügen der *seconds-Felder 
+                    // Konvertiert das 'medians' Map zu einem MutableMap, um zusätzliche Keys hinzuzufügen.
                     val extendedMedians = medians.toMutableMap()
 
                     // "swim_time" => parseTime(...) => "swim_time_seconds"
