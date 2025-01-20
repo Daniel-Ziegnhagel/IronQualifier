@@ -33,12 +33,10 @@ class IronmanApp_siebenApp extends Application.AppBase {
     // Korrekte onStart-Methode
     function onStart(state as Lang.Dictionary or Null) as Void {
         AppBase.onStart(state);
-        // Hier können Sie zusätzlichen Code hinzufügen, falls erforderlich
     }
 
     // Korrekte onStop-Methode
     function onStop(state as Lang.Dictionary or Null) as Void {
-        // Hier können Sie zusätzlichen Code hinzufügen, falls erforderlich
         AppBase.onStop(state);
     }
 
