@@ -3,7 +3,6 @@
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
-// Entferne alle ungültigen Import-Anweisungen für Klassen
 
 class IronmanApp_siebenMenuDelegate extends WatchUi.MenuInputDelegate {
     function initialize() {
