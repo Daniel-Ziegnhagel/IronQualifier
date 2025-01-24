@@ -47,8 +47,6 @@ class StopwatchDelegate extends WatchUi.BehaviorDelegate {
         } else if (WatchUi.KEY_ESC == evt.getKey()) {
             System.println("KEY_ESC erkannt");
             handleEscPress();
-        } else if (WatchUi.KEY_DOWN == evt.getKey()) {
-            navigateToNextView();
         }
 
         return true;
